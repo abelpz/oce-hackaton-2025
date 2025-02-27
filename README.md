@@ -1,8 +1,12 @@
-# **TaskFlow DCS (Gitea)**
+# OCE Hackathon 2025 - Idiomas Puentes
 
 ## **TLDR (Resumen Ejecutivo)**
 
-### **¿Qué es?**
+### Proyecto
+
+TaskFlow DCS (Gitea)
+
+### ¿Qué es?
 
 Una extensión para Theia IDE que gestiona el flujo de trabajo de traducción bíblica en DCS (Door43 Content Service), con capacidades offline-first.
 
@@ -39,9 +43,68 @@ Una extensión para Theia IDE que gestiona el flujo de trabajo de traducción b�
 
 MVP funcional que permita gestionar el flujo completo de traducción bíblica, desde el borrador inicial hasta la publicación, con soporte para trabajo sin conexión.
 
-----------
+### **Prototipo Visual Inicial**
+🎨 [Ver Prototipo HTML](./example.html) - Implementación inicial de la interfaz que muestra:
+- Layout general de la extensión dentro del IDE Eclipse Theia
+- Sistema de gestión de tareas
+- Flujo de trabajo de traducción
+- Estilos y componentes base
+- Interacciones básicas
 
-_Extensión para Theia - Gestión de tareas offline-first con DCS (Gitea)_
+> **Nota**: Este prototipo no representa el diseño objetivo para el MVP. Sin embargo, los equipos pueden usarlo como referencia visual durante el desarrollo.
+
+> **Tip**: Usa este prototipo como guía visual durante el desarrollo, pero siéntete libre de proponer mejoras.
+
+## **Tabla de Contenidos**
+
+1. [Equipo del Hackathon](#equipo-del-hackathon)
+   - [Liderazgo](#liderazgo)
+   - [UI Architects](#equipo-1-ui-architects)
+   - [UI Crafters](#equipo-2-ui-crafters)
+   - [API Bridge](#equipo-3-api-bridge)
+   - [React Core](#equipo-4-react-core)
+   - [Theia Integration](#equipo-5-theia-integration)
+   - [Consultores](#consultores)
+
+2. [Introducción](#introducción)
+   - [¿Por qué Theia?](#por-qué-theia)
+   - [Contexto del Desarrollo](#contexto-del-desarrollo)
+   - [Objetivo Principal](#objetivo-principal)
+   - [Características Clave](#características-clave)
+   - [Usuarios Objetivo](#usuarios-objetivo)
+   - [Integración con DCS](#integración-con-dcs)
+   - [Alcance del Proyecto](#alcance-del-proyecto)
+
+3. [Equipos y Responsabilidades](#1-equipos-y-responsabilidades)
+   - [UI Architects](#equipo-1-ui-architects-diseñadores-uxui)
+   - [UI Crafters](#equipo-2-ui-crafters-maquetadores-htmlcss)
+   - [API Bridge](#equipo-3-api-bridge-lógica-typescript)
+   - [React Core](#equipo-4-react-core-integración-ui--api)
+   - [Theia Integration](#equipo-5-theia-integration)
+
+4. [Detalles de Implementación UI](#10-detalles-de-implementación-ui)
+   - [Estructura de la Interfaz](#estructura-de-la-interfaz)
+   - [Interacciones](#interacciones)
+   - [Estilos](#estilos)
+   - [Tecnologías Frontend](#tecnologías-frontend)
+   - [Consideraciones de UX](#consideraciones-de-ux)
+
+5. [Stack Tecnológico](#stack-tecnológico)
+   - [Frontend](#frontend)
+   - [Backend/API](#backendapi)
+   - [Herramientas de Diseño](#herramientas-de-diseño)
+   - [Desarrollo](#desarrollo)
+   - [Almacenamiento Local](#almacenamiento-local)
+
+6. [Tipos de Proyectos y Flujo de Trabajo](#11-tipos-de-proyectos-y-flujo-de-trabajo)
+   - [Estructura del Proyecto](#estructura-del-proyecto)
+   - [Pasos de Traducción](#pasos-de-traducción)
+   - [Diagrama de Flujo y Optimización](#diagrama-de-flujo-y-optimización)
+   - [Optimización del Flujo de Trabajo](#optimización-del-flujo-de-trabajo)
+   - [Roles y Responsabilidades](#roles-y-responsabilidades)
+   - [Gestión de Tareas](#gestión-de-tareas)
+
+----------
 
 ## **Equipo del Hackathon**
 
@@ -254,12 +317,6 @@ Este proyecto se desarrollará en 4 días, con un MVP que incluye:
 - UI integrada en Theia
 - Sincronización con DCS
 - Sistema de resolución de conflictos
-
-----------
-
-_El resto del documento detalla la implementación técnica, la organización del equipo y el cronograma de desarrollo._
-
-----------
 
 ## **1. Equipos y Responsabilidades**
 
